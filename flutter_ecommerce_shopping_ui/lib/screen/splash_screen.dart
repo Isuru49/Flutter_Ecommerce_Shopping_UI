@@ -2,6 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/home_screen.dart';
+import 'package:flutter_ecommerce_shopping_ui/screen/onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -15,7 +16,7 @@ class _MyWidgetState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(Duration(seconds: 3),
-    ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen(), ))
+    ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => OnboardingScreen(), ))
     );
   }
 
