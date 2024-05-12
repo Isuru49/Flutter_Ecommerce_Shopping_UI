@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_ecommerce_shopping_ui/screen/home_screen.dart';
+//import 'package:flutter_ecommerce_shopping_ui/screen/home_screen.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/onboarding_screen.dart';
 
 class SplashScreen extends StatefulWidget {
