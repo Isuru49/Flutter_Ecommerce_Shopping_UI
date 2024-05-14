@@ -15,9 +15,13 @@ class _MyWidgetState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 3),
-    ()=> Navigator.push(context, MaterialPageRoute(builder: (context) => OnboardingScreen(), ))
-    );
+    Timer(
+        Duration(seconds: 3),
+        () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => OnboardingScreen(),
+            )));
   }
 
   @override
@@ -37,11 +41,7 @@ class _MyWidgetState extends State<SplashScreen> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(
-                Icons.shopping_cart,
-                size: 250,
-                color: Color.fromARGB(255, 239, 48, 48),
-              ),
+              Icon(Icons.shopping_cart, size: 250, color: Color(0xFFDB3022)),
               Text(
                 "DP Shop",
                 style: TextStyle(

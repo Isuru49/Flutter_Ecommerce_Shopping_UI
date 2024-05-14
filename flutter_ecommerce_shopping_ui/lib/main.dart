@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/login_screen.dart';
+import 'package:flutter_ecommerce_shopping_ui/screen/onboarding_screen.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/splash_screen.dart';
 
 void main() {
@@ -17,7 +18,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Color(0xFFEF6969),
       ),
-
       home: LoginScreen(),
     );
   }

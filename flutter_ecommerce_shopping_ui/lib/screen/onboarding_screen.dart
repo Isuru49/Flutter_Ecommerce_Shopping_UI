@@ -60,7 +60,7 @@ class OnboardingScreen extends StatelessWidget {
               ),
               style: ElevatedButton.styleFrom(
                 minimumSize: Size.fromHeight(55),
-                backgroundColor: Color(0xFFEF6969),
+                backgroundColor: Color(0xFFDB3022),
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(8),
                 ),
@@ -74,18 +74,18 @@ class OnboardingScreen extends StatelessWidget {
       showBackButton: true,
       back: Text(
         "Back",
-        style: TextStyle(fontWeight: FontWeight.w600, color: Color(0xFFEF6969)),
+        style: TextStyle(fontWeight: FontWeight.w600, color: Color(0xFFDB3022)),
       ),
       next: Text(
         "Next",
-        style: TextStyle(fontWeight: FontWeight.w600, color: Color(0xFFEF6969)),
+        style: TextStyle(fontWeight: FontWeight.w600, color: Color(0xFFDB3022)),
       ),
       onDone: () {},
       onSkip: () {},
       dotsDecorator: DotsDecorator(
           size: Size.square(10),
           activeSize: Size(20, 10),
-          activeColor: Color(0xFFEF6969),
+          activeColor: Color(0xFFDB3022),
           color: Colors.black26,
           spacing: EdgeInsets.symmetric(horizontal: 3),
           activeShape:
