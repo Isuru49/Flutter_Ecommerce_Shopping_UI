@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/login_screen.dart';
+import 'package:flutter_ecommerce_shopping_ui/screen/navigation_screen.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/onboarding_screen.dart';
 import 'package:flutter_ecommerce_shopping_ui/screen/splash_screen.dart';
 
@@ -16,9 +17,9 @@ class MyApp extends StatelessWidget {
       title: "ECommerce Shopping",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: Color(0xFFEF6969),
+        primaryColor: Color(0xFFDB3022),
       ),
-      home: LoginScreen(),
+      home: NavigationScreen(),
     );
   }
 }
